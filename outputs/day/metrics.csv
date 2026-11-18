@@ -1,0 +1,6 @@
+Condition,Algorithm,Mean Intensity,Contrast (Std Dev),Entropy (bits)
+day,Original,108.18,58.39,7.39
+day,Global HE,128.53,73.9,7.17
+day,CLAHE,119.88,54.36,7.49
+day,Gamma,134.18,56.1,7.19
+day,YCrCb + CLAHE,113.29,56.64,7.42

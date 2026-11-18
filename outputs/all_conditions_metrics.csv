@@ -1,0 +1,21 @@
+Condition,Algorithm,Mean Intensity,Contrast (Std Dev),Entropy (bits)
+day,Original,108.18,58.39,7.39
+day,Global HE,128.53,73.9,7.17
+day,CLAHE,119.88,54.36,7.49
+day,Gamma,134.18,56.1,7.19
+day,YCrCb + CLAHE,113.29,56.64,7.42
+night,Original,17.97,21.14,4.38
+night,Global HE,147.46,53.0,4.38
+night,CLAHE,31.91,33.7,5.37
+night,Gamma,33.56,31.58,4.38
+night,YCrCb + CLAHE,23.6,25.67,4.58
+white_light,Original,90.58,62.23,7.49
+white_light,Global HE,128.32,73.4,7.25
+white_light,CLAHE,103.14,59.03,7.74
+white_light,Gamma,116.49,59.94,7.34
+white_light,YCrCb + CLAHE,95.83,60.42,7.59
+warm_light,Original,81.38,50.86,6.96
+warm_light,Global HE,128.66,73.46,6.84
+warm_light,CLAHE,95.22,52.62,7.32
+warm_light,Gamma,108.28,53.38,6.82
+warm_light,YCrCb + CLAHE,87.24,51.61,7.12

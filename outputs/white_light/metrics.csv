@@ -1,0 +1,6 @@
+Condition,Algorithm,Mean Intensity,Contrast (Std Dev),Entropy (bits)
+white_light,Original,90.58,62.23,7.49
+white_light,Global HE,128.32,73.4,7.25
+white_light,CLAHE,103.14,59.03,7.74
+white_light,Gamma,116.49,59.94,7.34
+white_light,YCrCb + CLAHE,95.83,60.42,7.59
