@@ -87,6 +87,6 @@ The project uses self-captured images under four illumination conditions:
 - Warm Light
 
 ## Author
-
+V.Sangivi Ganesh
 Digital Image Processing CA-3 Project  
 ECE3401 | Academic Year 2026–2027
