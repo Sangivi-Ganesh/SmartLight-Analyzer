@@ -26,27 +26,7 @@ st.title("💡 SmartLight Analyzer")
 st.caption(
     "Real-Time Image Enhancement and Histogram Analysis"
 )
-st.markdown("""
-### Welcome!
 
-SmartLight Analyzer is an interactive image processing
-application developed to study the effect of illumination
-on image quality and explore different image enhancement
-techniques.
-
-It analyzes images captured under four lighting conditions
-and demonstrates how histogram-based methods can improve
-image visibility, contrast and intensity distribution.
-
-**Explore the application to:**
-- Analyze image histograms and CDF.
-- Apply Global Histogram Equalization.
-- Compare CLAHE and Gamma Correction.
-- Explore colour-preserving YCrCb enhancement.
-- Evaluate results using image quality metrics.
-
----
-""")
 
 
 # ============================================================
@@ -177,6 +157,28 @@ else:
 # ============================================================
 
 if page == "Overview":
+
+    st.markdown("""
+    ### Welcome!
+
+    SmartLight Analyzer is an interactive image processing
+    application developed to study the effect of illumination
+    on image quality and explore different image enhancement
+    techniques.
+
+    It analyzes images captured under four lighting conditions
+    and demonstrates how histogram-based methods can improve
+    image visibility, contrast and intensity distribution.
+
+    **Explore the application to:**
+    - Analyze image histograms and CDF.
+    - Apply Global Histogram Equalization.
+    - Compare CLAHE and Gamma Correction.
+    - Explore colour-preserving YCrCb enhancement.
+    - Evaluate results using image quality metrics.
+
+    ---
+    """)
 
     st.header("Experiment Overview")
 
